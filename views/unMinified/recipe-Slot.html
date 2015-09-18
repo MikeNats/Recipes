@@ -1,0 +1,44 @@
+   <article id='Recipe'   class='columns large-16'>
+            
+            <h2>{{recipe.data.name}}</h2> <span class='right'>{{recipe.data.time}}</span>
+
+            <img alt='{{recipe.data.name}}' src='{{recipe.data.image}}' />
+            
+			
+			
+			
+			<h3 >Ingredients</h3>
+			
+           <ul class='ingidient' ng-if="!recipe.group" >
+                <li ng-repeat='ingredient in recipe.data.ingredients'>{{ingredient}}</li>
+                
+            </ul>
+			
+            <ul class='groupedIngidient' ng-if="recipe.group" >
+                <li class='columns large-16' ng-repeat='ingredientGroup in recipe.data.ingredients'>
+					
+					<ul ng-repeat='ingredient in ingredientGroup.ingredients'>
+						
+						<li class='columns large-8 medium-8 small-8'>{{ingredient}}</li>
+						<li class='columns large-8 medium-8 small-8'>{{ingredientGroup.group}}</li>
+					</ul>
+					
+                </li>     
+            </ul> 
+			
+			
+			 
+			
+			
+			<h3>Method:</h3>
+			<ol>
+            	<li ng-repeat='method in recipe.data.method'>{{method}}</li>
+			</ol>
+			
+			<h3>Summary:</h3>
+            <p class='summary'>{{recipe.data.summary}}</p>
+            <button class='columns larg-16' ng-click = "recipe.goToIndex();" >Back</button>
+            
+        </article>
+
+	

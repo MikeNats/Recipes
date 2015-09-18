@@ -1,0 +1,19 @@
+
+<section class='smallHeader'  ng-controller='recipeController'>
+    
+    <header>
+         <!-- Logo -->
+		<section id='logo' class='ngIncludeHeaderTag columns small-3' ng-include src="'./views/logo-Slot.html'"></section>            
+        
+    </header>
+        
+	
+	 <!-- recipie -->
+    <section  id='mainContent' ng-if='recipe.data' class='columns large-16' ng-include src="'./views/recipe-Slot.html'"> </section>
+       
+	
+     
+</section>	   
+   
+
+  

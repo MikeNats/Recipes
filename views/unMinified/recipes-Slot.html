@@ -1,0 +1,17 @@
+<section  class='columns large-16' >  
+    
+		<ul id='Recipes' class='columns large-16'>
+            
+            <li ng-model='recipes.recipes' ng-repeat='recipe in recipes.recipes'>
+                <a href='#/recipe/{{recipes.buildUrl(recipe.name); }}' title='{{recipe.name}}' >
+                    <img alt='{{recipes.recipes.name}}' src='{{recipe.image}}' />
+                    <h3>{{recipe.name}}</h3>
+                    <span class='right'> {{recipe.cookingTime}} minutes</span>
+                </a>    
+                
+            </li>
+        </ul>
+</section>	 
+
+  
+

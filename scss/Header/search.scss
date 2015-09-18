@@ -1,0 +1,35 @@
+#Search{
+    @media only screen and (max-width: 40.63em) { 
+		float: right;
+	}
+	fieldset {
+
+        border:none;
+        float:left;
+        max-width:70%;
+		margin-top:6px;
+
+		@media only screen and (max-width: 40.63em) { 
+			
+
+			  border: medium none;
+			  float: left;
+			  margin-bottom: 5px ;
+			  margin-top: 4px ;
+			  max-width: 100%;
+			  padding: 0;
+
+			
+
+		}
+		input{
+			margin: 0;
+			@media only screen and (max-width: 40.63em) { 
+				text-align: right;
+
+			}
+		}
+		
+	}
+
+}

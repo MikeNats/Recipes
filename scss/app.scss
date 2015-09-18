@@ -1,0 +1,26 @@
+// *** Top Priority ***//
+@import     "scss/fonts/fonts",
+            "scss/settings";  
+
+
+// *** Foundation compoments ***//
+@import     "foundation";
+      
+ 
+
+ @import    "scss/global",
+      
+             //Header
+             "scss/Header/header",
+	         "scss/Header/logo", 
+             "scss/Header/orderBy", 
+             "scss/Header/search", 
+
+             //MainContent
+             "scss/MainContent/recipes",
+	         "scss/MainContent/readMore",
+             "scss/MainContent/recipe"; 
+
+
+
+       

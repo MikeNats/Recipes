@@ -1,0 +1,17 @@
+#logo {
+    width:auto;
+	padding-right: 0;
+	h1{
+
+	  height: 100%;
+	  line-height: 100%;
+	  margin: 0;
+	  width:auto;
+	  color:#555555;
+		@media only screen and (max-width: 40.63em) { 
+			  line-height: 118%;
+		}
+	}
+
+
+}

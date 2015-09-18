@@ -1,0 +1,219 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-jsdoc-plugin' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json map@1.0.0 No description
+6 warn package.json map@1.0.0 No repository field.
+7 warn package.json map@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt-jsdoc-plugin', null ]
+10 verbose cache add name=undefined spec="grunt-jsdoc-plugin" args=["grunt-jsdoc-plugin",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-jsdoc-plugin',
+11 verbose parsed url   path: 'grunt-jsdoc-plugin',
+11 verbose parsed url   href: 'grunt-jsdoc-plugin' }
+12 silly lockFile fc6a6bc6-grunt-jsdoc-plugin grunt-jsdoc-plugin
+13 verbose lock grunt-jsdoc-plugin C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\fc6a6bc6-grunt-jsdoc-plugin.lock
+14 silly lockFile fc6a6bc6-grunt-jsdoc-plugin grunt-jsdoc-plugin
+15 silly lockFile fc6a6bc6-grunt-jsdoc-plugin grunt-jsdoc-plugin
+16 verbose addNamed [ 'grunt-jsdoc-plugin', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 1dd1074e-grunt-jsdoc-plugin grunt-jsdoc-plugin@
+19 verbose lock grunt-jsdoc-plugin@ C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\1dd1074e-grunt-jsdoc-plugin.lock
+20 silly addNameRange { name: 'grunt-jsdoc-plugin', range: '*', hasData: false }
+21 verbose request where is /grunt-jsdoc-plugin
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id e6df153c8bc01257
+24 verbose url raw /grunt-jsdoc-plugin
+25 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-jsdoc-plugin' ]
+26 verbose url resolved https://registry.npmjs.org/grunt-jsdoc-plugin
+27 verbose request where is https://registry.npmjs.org/grunt-jsdoc-plugin
+28 info trying registry request attempt 1 at 09:50:26
+29 verbose etag "2XECLOCZ9G6GCGMM8T8XD5YP"
+30 http GET https://registry.npmjs.org/grunt-jsdoc-plugin
+31 http 304 https://registry.npmjs.org/grunt-jsdoc-plugin
+32 silly registry.get cb [ 304,
+32 silly registry.get   { date: 'Wed, 13 May 2015 08:50:29 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     'cache-control': 'max-age=60',
+32 silly registry.get     etag: '"2XECLOCZ9G6GCGMM8T8XD5YP"',
+32 silly registry.get     age: '0',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-lhr6330-LHR',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1431507029.645012,VS0,VE649',
+32 silly registry.get     vary: 'Accept' } ]
+33 verbose etag https://registry.npmjs.org/grunt-jsdoc-plugin from cache
+34 silly addNameRange number 2 { name: 'grunt-jsdoc-plugin', range: '*', hasData: true }
+35 silly addNameRange versions [ 'grunt-jsdoc-plugin',
+35 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4' ] ]
+36 verbose addNamed [ 'grunt-jsdoc-plugin', '0.1.4' ]
+37 verbose addNamed [ '0.1.4', '0.1.4' ]
+38 silly lockFile 68fa07dd-grunt-jsdoc-plugin-0-1-4 grunt-jsdoc-plugin@0.1.4
+39 verbose lock grunt-jsdoc-plugin@0.1.4 C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\68fa07dd-grunt-jsdoc-plugin-0-1-4.lock
+40 silly lockFile 68fa07dd-grunt-jsdoc-plugin-0-1-4 grunt-jsdoc-plugin@0.1.4
+41 silly lockFile 68fa07dd-grunt-jsdoc-plugin-0-1-4 grunt-jsdoc-plugin@0.1.4
+42 silly lockFile 1dd1074e-grunt-jsdoc-plugin grunt-jsdoc-plugin@
+43 silly lockFile 1dd1074e-grunt-jsdoc-plugin grunt-jsdoc-plugin@
+44 silly resolved [ { name: 'grunt-jsdoc-plugin',
+44 silly resolved     description: 'Integrates jsdoc3 generation into your Grunt build',
+44 silly resolved     version: '0.1.4',
+44 silly resolved     homepage: 'https://github.com/krampstudio/grunt-jsdoc-plugin',
+44 silly resolved     author:
+44 silly resolved      { name: 'Bertrand Chevrier',
+44 silly resolved        email: 'chevrier.bertrand@gmail.com',
+44 silly resolved        url: 'http://krampstudio.com' },
+44 silly resolved     repository:
+44 silly resolved      { type: 'git',
+44 silly resolved        url: 'git://github.com/krampstudio/grunt-jsdoc-plugin.git' },
+44 silly resolved     bugs: { url: 'https://github.com/krampstudio/grunt-jsdoc-plugin/issues' },
+44 silly resolved     licenses: [ [Object] ],
+44 silly resolved     main: 'grunt.js',
+44 silly resolved     bin: { 'grunt-jsdoc-plugin': 'bin/grunt-jsdoc-plugin' },
+44 silly resolved     engines: { node: '*' },
+44 silly resolved     scripts: { test: 'grunt test' },
+44 silly resolved     devDependencies: { grunt: '~0.3.x' },
+44 silly resolved     dependencies: { jsdoc3: 'git://github.com/jsdoc3/jsdoc.git' },
+44 silly resolved     keywords: [ 'gruntplugin', 'grunt', 'jsdoc', 'jsdoc3' ],
+44 silly resolved     readme: '# grunt-jsdoc-plugin\n\nThis plugin enables you to integrate generation of comment based documentation into your Grunt build.\n\n\n## Install\n\nYou need [grunt] as well as [node] and [npm] installed and running on your system.\n\nYou also need `java` installed and a valid `JAVA_HOME` environment variable set.\n\nInstall this grunt plugin next to your project\'s [grunt.js gruntfile][getting_started] with: \n\n```bash\nnpm install grunt-jsdoc-plugin`\n```\n\n## Documentation\n\n### Configuration\n\nConfigure the plugin to your project\'s [grunt.js gruntfile][getting_started]:\n\nFirst, add the `jsdoc` entry to the options of the `initConfig` method :\n\n```javascript\ngrunt.initConfig({\n    jsdoc : {\n        dist : {\n            src: [\'src/*.js\', \'test/*.js\'], \n            dest: \'doc\'\n        }\n    }\n});\n```\n\nThe only supported options are \n\n * `src` : an array of pattern that matches the files to extract the documentation from. You can also add the pattern to a README.md file to include it in your doc as described [there](http://usejsdoc.org/about-including-readme.html).\n * `dest`: the directory where the documentation will be generated (it will be created if needed).\n * `config` : (optional) a path to a jsdoc config file (refer the [usejsdoc] documentation below for more information).\n\nThen, load the plugin \n\n```javascript\ngrunt.loadNpmTasks(\'grunt-jsdoc-plugin\');\n```\n\n### Documentation\n\nThe current version supports only [jsdoc3] documentation style. The sources configured \nmust contains valid [jsdoc3] tags. Consult the [usejsdoc] website for the details.\n\n### Build\n\nTo generate the documentation, you need to call the `jsdoc` task :\n\n```bash\n$> grunt jsdoc\n```\n\nor integrate it to your build sequence : \n\n```javascript\ngrunt.registerTask(\'default\', \'lint test jsdoc\');\n```\n\n## Contributing\n\nAny contribution is welcome! Please check the [issues](https://github.com/krampstudio/grunt-jsdoc-plugin/issues).\n\n## Release History\n\n\n * _0.1.0_ First release, includes basic support of [jsdoc3]\n   * _0.1.1_ Fix [bug #2](https://github.com/krampstudio/grunt-jsdoc-plugin/issues/2)\n   * _0.1.2_ Fix [bug #4](https://github.com/krampstudio/grunt-jsdoc-plugin/issues/4) \n   * _0.1.3_ Fix [bug #7](https://github.com/krampstudio/grunt-jsdoc-plugin/pull/7), Add [feature #8](https://github.com/krampstudio/grunt-jsdoc-plugin/pull/8)\n   * _0.1.4_ Use `child_process.spawn` instead of `exec` to run the command\n\n[jsdoc3]: https://github.com/jsdoc3/jsdoc\n\n## License\nCopyright (c) 2012 Bertrand Chevrier  \nLicensed under the MIT license.\n\n\n[grunt]: https://github.com/cowboy/grunt\n[node]: http://nodejs.org\n[npm]: http://npmjs.org\n[getting_started]: https://github.com/cowboy/grunt/blob/master/docs/getting_started.md\n[usejsdoc]: http://usejsdoc.org\n',
+44 silly resolved     readmeFilename: 'README.md',
+44 silly resolved     _id: 'grunt-jsdoc-plugin@0.1.4',
+44 silly resolved     dist:
+44 silly resolved      { shasum: 'ec13837ad4b80e00c11cc7b9bf9a45bea58025f4',
+44 silly resolved        tarball: 'http://registry.npmjs.org/grunt-jsdoc-plugin/-/grunt-jsdoc-plugin-0.1.4.tgz' },
+44 silly resolved     _npmVersion: '1.1.66',
+44 silly resolved     _npmUser: { name: 'krampstudio', email: 'chevrier.bertrand@gmail.com' },
+44 silly resolved     maintainers: [ [Object] ],
+44 silly resolved     directories: {},
+44 silly resolved     _shasum: 'ec13837ad4b80e00c11cc7b9bf9a45bea58025f4',
+44 silly resolved     _from: 'grunt-jsdoc-plugin@',
+44 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-jsdoc-plugin/-/grunt-jsdoc-plugin-0.1.4.tgz' } ]
+45 info install grunt-jsdoc-plugin@0.1.4 into C:\Users\michalis.tsougkranis\Desktop\map
+46 info installOne grunt-jsdoc-plugin@0.1.4
+47 verbose node_modules\grunt-jsdoc-plugin unbuild
+48 verbose tar unpack C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\grunt-jsdoc-plugin\0.1.4\package.tgz
+49 silly lockFile e644f3a5--node-modules-grunt-jsdoc-plugin tar://C:\Users\michalis.tsougkranis\Desktop\map\node_modules\grunt-jsdoc-plugin
+50 verbose lock tar://C:\Users\michalis.tsougkranis\Desktop\map\node_modules\grunt-jsdoc-plugin C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\e644f3a5--node-modules-grunt-jsdoc-plugin.lock
+51 silly lockFile 535f8ead-t-jsdoc-plugin-0-1-4-package-tgz tar://C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\grunt-jsdoc-plugin\0.1.4\package.tgz
+52 verbose lock tar://C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\grunt-jsdoc-plugin\0.1.4\package.tgz C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\535f8ead-t-jsdoc-plugin-0-1-4-package-tgz.lock
+53 silly gunzTarPerm modes [ '777', '666' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+60 silly gunzTarPerm extractEntry grunt.js
+61 silly gunzTarPerm modified mode [ 'grunt.js', 420, 438 ]
+62 silly gunzTarPerm extractEntry test/jsdoc-plugin_test.js
+63 silly gunzTarPerm modified mode [ 'test/jsdoc-plugin_test.js', 420, 438 ]
+64 silly gunzTarPerm extractEntry tasks/jsdoc-plugin.js
+65 silly gunzTarPerm modified mode [ 'tasks/jsdoc-plugin.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry LICENSE-MIT
+67 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+68 silly gunzTarPerm extractEntry bin/grunt-jsdoc-plugin
+69 silly gunzTarPerm modified mode [ 'bin/grunt-jsdoc-plugin', 493, 511 ]
+70 silly gunzTarPerm extractEntry doc/JsdocTest.html
+71 silly gunzTarPerm modified mode [ 'doc/JsdocTest.html', 420, 438 ]
+72 silly gunzTarPerm extractEntry doc/index.html
+73 silly gunzTarPerm modified mode [ 'doc/index.html', 420, 438 ]
+74 silly gunzTarPerm extractEntry doc/styles/prettify-jsdoc.css
+75 silly gunzTarPerm modified mode [ 'doc/styles/prettify-jsdoc.css', 420, 438 ]
+76 silly gunzTarPerm extractEntry doc/styles/jsdoc-default.css
+77 silly gunzTarPerm modified mode [ 'doc/styles/jsdoc-default.css', 420, 438 ]
+78 silly gunzTarPerm extractEntry doc/6006565820.html
+79 silly gunzTarPerm modified mode [ 'doc/6006565820.html', 420, 438 ]
+80 silly gunzTarPerm extractEntry doc/scripts/prettify/prettify.js
+81 silly gunzTarPerm modified mode [ 'doc/scripts/prettify/prettify.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry doc/scripts/prettify/lang-css.js
+83 silly gunzTarPerm modified mode [ 'doc/scripts/prettify/lang-css.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry doc/scripts/prettify/Apache-License-2.0.txt
+85 silly gunzTarPerm modified mode [ 'doc/scripts/prettify/Apache-License-2.0.txt', 420, 438 ]
+86 silly gunzTarPerm extractEntry doc/92656911a3.html
+87 silly gunzTarPerm modified mode [ 'doc/92656911a3.html', 420, 438 ]
+88 silly gunzTarPerm extractEntry tmp/index.html
+89 silly gunzTarPerm modified mode [ 'tmp/index.html', 420, 438 ]
+90 silly gunzTarPerm extractEntry tmp/styles/prettify-jsdoc.css
+91 silly gunzTarPerm modified mode [ 'tmp/styles/prettify-jsdoc.css', 420, 438 ]
+92 silly gunzTarPerm extractEntry tmp/styles/jsdoc-default.css
+93 silly gunzTarPerm modified mode [ 'tmp/styles/jsdoc-default.css', 420, 438 ]
+94 silly gunzTarPerm extractEntry tmp/scripts/prettify/prettify.js
+95 silly gunzTarPerm modified mode [ 'tmp/scripts/prettify/prettify.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry tmp/scripts/prettify/lang-css.js
+97 silly gunzTarPerm modified mode [ 'tmp/scripts/prettify/lang-css.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry tmp/scripts/prettify/Apache-License-2.0.txt
+99 silly gunzTarPerm modified mode [ 'tmp/scripts/prettify/Apache-License-2.0.txt', 420, 438 ]
+100 silly lockFile e644f3a5--node-modules-grunt-jsdoc-plugin tar://C:\Users\michalis.tsougkranis\Desktop\map\node_modules\grunt-jsdoc-plugin
+101 silly lockFile e644f3a5--node-modules-grunt-jsdoc-plugin tar://C:\Users\michalis.tsougkranis\Desktop\map\node_modules\grunt-jsdoc-plugin
+102 silly lockFile 535f8ead-t-jsdoc-plugin-0-1-4-package-tgz tar://C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\grunt-jsdoc-plugin\0.1.4\package.tgz
+103 silly lockFile 535f8ead-t-jsdoc-plugin-0-1-4-package-tgz tar://C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\grunt-jsdoc-plugin\0.1.4\package.tgz
+104 info preinstall grunt-jsdoc-plugin@0.1.4
+105 verbose readDependencies using package.json deps
+106 verbose readDependencies using package.json deps
+107 verbose cache add [ 'jsdoc3@git://github.com/jsdoc3/jsdoc.git', null ]
+108 verbose cache add name=undefined spec="jsdoc3@git://github.com/jsdoc3/jsdoc.git" args=["jsdoc3@git://github.com/jsdoc3/jsdoc.git",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'jsdoc3@git://github.com/jsdoc3/jsdoc.git',
+109 verbose parsed url   path: 'jsdoc3@git://github.com/jsdoc3/jsdoc.git',
+109 verbose parsed url   href: 'jsdoc3@git://github.com/jsdoc3/jsdoc.git' }
+110 verbose cache add name="jsdoc3" spec="git://github.com/jsdoc3/jsdoc.git" args=["jsdoc3","git://github.com/jsdoc3/jsdoc.git"]
+111 verbose parsed url { protocol: 'git:',
+111 verbose parsed url   slashes: true,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: 'github.com',
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: 'github.com',
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '/jsdoc3/jsdoc.git',
+111 verbose parsed url   path: '/jsdoc3/jsdoc.git',
+111 verbose parsed url   href: 'git://github.com/jsdoc3/jsdoc.git' }
+112 silly lockFile 0dba5517-git-github-com-jsdoc3-jsdoc-git git://github.com/jsdoc3/jsdoc.git
+113 verbose lock git://github.com/jsdoc3/jsdoc.git C:\Users\michalis.tsougkranis\AppData\Roaming\npm-cache\0dba5517-git-github-com-jsdoc3-jsdoc-git.lock
+114 verbose addRemoteGit [ 'git://github.com/jsdoc3/jsdoc.git', 'master' ]
+115 warn `git config --get remote.origin.url` returned wrong result (git://github.com/jsdoc3/jsdoc.git) undefined
+115 warn `git config --get remote.origin.url` returned wrong result (git://github.com/jsdoc3/jsdoc.git) undefined
+116 error git clone git://github.com/jsdoc3/jsdoc.git undefined
+116 error git clone git://github.com/jsdoc3/jsdoc.git undefined
+117 silly lockFile 0dba5517-git-github-com-jsdoc3-jsdoc-git git://github.com/jsdoc3/jsdoc.git
+118 silly lockFile 0dba5517-git-github-com-jsdoc3-jsdoc-git git://github.com/jsdoc3/jsdoc.git
+119 verbose about to build C:\Users\michalis.tsougkranis\Desktop\map\node_modules\grunt-jsdoc-plugin
+120 verbose node_modules\grunt-jsdoc-plugin unbuild
+121 info preuninstall grunt-jsdoc-plugin@0.1.4
+122 info uninstall grunt-jsdoc-plugin@0.1.4
+123 verbose true,C:\Users\michalis.tsougkranis\Desktop\map\node_modules,C:\Users\michalis.tsougkranis\Desktop\map\node_modules unbuild grunt-jsdoc-plugin@0.1.4
+124 verbose C:\Users\michalis.tsougkranis\Desktop\map\node_modules\.bin,[object Object] binRoot
+125 info postuninstall grunt-jsdoc-plugin@0.1.4
+126 error not found: git
+127 error Failed using git.
+127 error This is most likely not a problem with npm itself.
+127 error Please check if you have git installed and in your PATH.
+128 error System Windows_NT 6.1.7601
+129 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-jsdoc-plugin"
+130 error cwd C:\Users\michalis.tsougkranis\Desktop\map
+131 error node -v v0.10.31
+132 error npm -v 1.4.23
+133 error code ENOGIT
+134 verbose exit [ 1, true ]
