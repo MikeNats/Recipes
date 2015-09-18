@@ -1,5 +1,4 @@
 # Recipes
-# Recipes
 
 The development environment of the app is consisted from the below folders:
 
